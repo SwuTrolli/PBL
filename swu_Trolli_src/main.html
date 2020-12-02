@@ -5,18 +5,22 @@
    <script src="main.js"></script>
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-   <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
 </head>
 <style>
 .body{
    width:500px;
    height:700px;
 }
-.button{
+ .button{
    margin:5px;
    font-family: 'Do Hyeon', sans-serif;
    }
+ .btn.btnEvent{
+   background-color: #FFFFFF;
+   background-color: rgba(255,255,255,0.5);
+ }
  .toggle-control_1 {
     display: block;
     position: relative;
@@ -34,7 +38,7 @@
     width: 0;
 }
  .toggle-control_1 input:checked ~ .control {
-    background-color: #FFAF32;
+    background-color:#FFAF32 ;
 }
  .toggle-control_1 input:checked ~ .control:after {
     left: 35px;
@@ -60,13 +64,13 @@
     background: white;
     transition: left 0.15s ease-in;
 }
-.toggle-control_2 {
+ .toggle-control_2 {
     display: block;
     position: relative;
     padding-left: 70px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 22px;
     user-select: none;
 }
  .toggle-control_2 input {
@@ -115,7 +119,7 @@
    </select>
 </div>
 <div>
-   <input type="text" id="txt_new" style="width:150px;"> <button id="btn_insert">__MSG_string003__</button><button id="btn_delete">__MSG_string004__</button>
+   <input type="text" id="txt_new" style="width:150px;"> <button type="button" id="" class="btn btnEvent"><img src=".\images\plus.png" alt="btnImages" class="btnImages"></button><button type="btn_delete" id="" class="btn btnEvent"><img src=".\images\minus.png" alt="btnImages" class="btnImages"></button>
 </div>
 <div class="button">
    <label class="toggle-control_1" id="button_1" style="bottom:0px;">1단계
