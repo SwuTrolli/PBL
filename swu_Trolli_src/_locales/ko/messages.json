@@ -8,20 +8,20 @@
 	"description": "이 앱은 인터넷에서 보기 싫은 악플, 욕설을 필터링 및 차단해주는 앱입니다."
     },
     "string001": {
-	"message": "트롤리",
-	"description": "트롤리"
+	"message": " Trolli",
+	"description": " Trolli"
     },
     "string002": {
-	"message": "차단하고 싶은 욕설 단어를 입력하세요.",
-	"description": "차단하고 싶은 욕설 단어를 입력하세요."
+	"message": "차 차단하고 싶은 '",
+	"description": "차단하고 싶은 '"
     },
     "string003": {
-	"message": "추가",
-	"description": "추가"
+    "message" : " 욕설",
+    "description" : "욕설"
     },
     "string004": {
-	"message": "삭제",
-	"description": "삭제"
+    "message" : "' 단어를 입력하세요.",
+    "description" : "' 단어를 입력하세요."
     }
 
 }
