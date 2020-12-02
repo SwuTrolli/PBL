@@ -1,0 +1,27 @@
+{ 
+    "appName": {
+	"message": "Text-Free(Block unwanted articles)",
+	"description": "Text-Free(Block unwanted articles)"
+    },
+    "appDescription": {
+	"message": "This app is an app that blocks articles you do not like while browsing the internet.",
+	"description": "This app is an app that blocks articles you do not like while browsing the internet."
+    },
+    "string001": {
+	"message": "Text-Free",
+	"description": "Text-Free"
+    },
+    "string002": {
+	"message": "Define a list of words you do not want to see.",
+	"description": "Define a list of words you do not want to see."
+    },
+    "string003": {
+	"message": "Add",
+	"description": "Add"
+    },
+    "string004": {
+	"message": "Delete",
+	"description": "Delete"
+    }
+
+}

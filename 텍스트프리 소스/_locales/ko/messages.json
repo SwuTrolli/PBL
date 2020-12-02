@@ -1,0 +1,27 @@
+{ 
+    "appName": {
+	"message": "Trolli",
+	"description": "트롤리(악플 차단)"
+    },
+    "appDescription": {
+	"message": "이 앱은 인터넷에서 보기 싫은 악플, 욕설을 필터링 및 차단해주는 앱입니다.",
+	"description": "이 앱은 인터넷에서 보기 싫은 악플, 욕설을 필터링 및 차단해주는 앱입니다."
+    },
+    "string001": {
+	"message": "트롤리",
+	"description": "트롤리"
+    },
+    "string002": {
+	"message": "차단하고 싶은 욕설 단어를 입력하세요.",
+	"description": "차단하고 싶은 욕설 단어를 입력하세요."
+    },
+    "string003": {
+	"message": "추가",
+	"description": "추가"
+    },
+    "string004": {
+	"message": "삭제",
+	"description": "삭제"
+    }
+
+}

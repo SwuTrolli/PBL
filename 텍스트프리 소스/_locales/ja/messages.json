@@ -1,0 +1,27 @@
+{ 
+    "appName": {
+	"message": "Text-Free(嫌な記事ブロック)",
+	"description": "Text-Free(嫌な記事ブロック)"
+    },
+    "appDescription": {
+	"message": "このアプリは、インターネットサーフィン中嫌な記事を遮断するアプリです。",
+	"description": "このアプリは、インターネットサーフィン中嫌な記事を遮断するアプリです。"
+    },
+    "string001": {
+	"message": "Text-Free",
+	"description": "Text-Free"
+    },
+    "string002": {
+	"message": "嫌な単語のリストを定義します。",
+	"description": "嫌な単語のリストを定義します。"
+    },
+    "string003": {
+	"message": "追加",
+	"description": "追加"
+    },
+    "string004": {
+	"message": "削除",
+	"description": "削除"
+    }
+
+}
