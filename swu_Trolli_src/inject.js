@@ -5,13 +5,20 @@ var replaceTextInNode = function(parentNode, list_keywords){
         //  Make sure this is a text node
 
         if(node.nodeType == Element.TEXT_NODE ){
-			for (var idx=0 ; idx<list_keywords.length ; idx++ )
-			{
-				if (node.textContent.indexOf(list_keywords[idx]) >= 0 )
-				{
-					node.textContent = Array(node.textContent.length).join("*"); /* modify text here */
-				}
-			}
+         for (var idx=0 ; idx<list_keywords.length ; idx++ )
+         {
+            if (node.textContent.indexOf(list_keywords[idx]) >= 0 )
+            {
+// 기존 코
+//               node.textContent = Array(node.textContent.length).join("*"); /* modify text here */
+            }
+// 특정 단어만 필터
+            if (node.textContent.indexOf(list_keywords[idx]) >= 0 )
+            {
+               node.textContent = replaceAll(node.textContent, list_keywords[idx], Array(list_keywords[idx].length+1).join("*")); /* modify text here */
+            }
+// 특정 단어만 필터처리 끝
+         }
 
         } else if(node.nodeType == Element.ELEMENT_NODE){
             //  Check this node's child nodes for text nodes to act on
