@@ -23,7 +23,7 @@ function localizeHtmlPage()
 function saveList(select) {
 
 	var list_keywords = [];
-	
+
 	for ( var i=0 ; i<select.options.length ; i++ )
 	{
 		var txt = select.options[i].text;
@@ -39,25 +39,25 @@ function saveList(select) {
 }
 
 function addOption(select, inputval) {
-	var option = document.createElement("option");        
+	var option = document.createElement("option");
 	option.text = inputval;
 	option.value = inputval;
-	
+
 	select.options.add(option);
-	
+
 	saveList(select);
 }
 
 document.addEventListener("DOMContentLoaded", function () {
 
-	// Áö¿ª¾ð¾î Ç¥½Ã
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½
 	localizeHtmlPage();
 
-	// ¹öÀüÁ¤º¸ Ç¥½Ã
-	document.getElementById("span_version").innerText = chrome.runtime.getManifest().version;
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½
+	//document.getElementById("span_version").innerText = chrome.runtime.getManifest().version;
 
 
-	var list_keyword = document.getElementById("list_keyword");	
+	var list_keyword = document.getElementById("list_keyword");
 	var txt_new = document.getElementById("txt_new");
 	txt_new.addEventListener("keypress", function(event) {
 		if ( event.keyCode == 13 )
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			for (var i=0 ; i<list_keywords.length ; i++ )
 			{
 				var inputval = list_keywords[i];
-				var option = document.createElement("option");        
+				var option = document.createElement("option");
 				option.text = inputval;
 				option.value = inputval;
 
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		}
 	});
 
-	
+
 
 	var btn_insert = document.getElementById("btn_insert");
 	btn_insert.addEventListener("click", function() {
