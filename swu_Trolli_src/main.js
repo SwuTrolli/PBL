@@ -20,6 +20,7 @@ function localizeHtmlPage()
 }
 
 
+
 function saveList(select) {
 
 	var list_keywords = [];
@@ -92,6 +93,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+
+
+
 	var btn_insert = document.getElementById("btn_insert");
 	btn_insert.addEventListener("click", function() {
 
@@ -116,4 +120,28 @@ document.addEventListener("DOMContentLoaded", function () {
 		}
 	});
 
+	var button_1= document.getElementById("button_1");
+	button_1.addEventListener("click", function() {
+
+		var Tlqkf = "씨발";
+
+			addOption(list_keyword, Tlqkf);
+			txt_new.value = "";
+
+
+
+	});
+
+
+
 });
+
+
+
+
+
+
+
+
+
+
