@@ -123,9 +123,52 @@ document.addEventListener("DOMContentLoaded", function () {
 	var button_1= document.getElementById("button_1");
 	button_1.addEventListener("click", function() {
 
-		var Tlqkf = "씨발";
+		var Ehfkdl = "씨발";
+		var qudtls="병신";
+		var Qkzb="존나";
+		var rotoRl="염병";
+		var Qjrzb="지랄";
+		var Qjrzzb="미친놈";
+		var Tid="썅";
 
-			addOption(list_keyword, Tlqkf);
+
+			addOption(list_keyword, Ehfkdl);
+			addOption(list_keyword, qudtls);
+			addOption(list_keyword, Qkzb);
+			addOption(list_keyword, rotoRl);
+			addOption(list_keyword, Qjrzb);
+			addOption(list_keyword, Qjrzzb);
+			addOption(list_keyword, Tid);
+			txt_new.value = "";
+
+
+
+	});
+
+	var button_2= document.getElementById("button_2");
+	button_2.addEventListener("click", function() {
+
+		var smlal="슈ㅣ발";
+		var slsus="및힌";
+		var slaml="븅신";
+		var sldoal="븽신";
+		var slalfjf="젼나";
+		var ajrkf="지0랄";
+		var wjdqud="찝째끼";
+
+
+
+
+			addOption(list_keyword, smlal);
+			addOption(list_keyword, slsus);
+			addOption(list_keyword, slaml);
+			addOption(list_keyword, sldoal);
+			addOption(list_keyword, slalfjf);
+			addOption(list_keyword, ajrkf);
+			addOption(list_keyword, wjdqud);
+
+
+
 			txt_new.value = "";
 
 
