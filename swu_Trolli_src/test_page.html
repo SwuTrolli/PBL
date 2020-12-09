@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
 
     <!-- ajax -->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <style>
@@ -36,24 +36,38 @@
         background-color:darkgray;
     }
 
+
+    table.type02 {
+
+
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: left;
+  line-height: 1.5;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  margin : 20px 10px;
+}
+table.type02 th {
+  width: 150px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  background: #eee;
+}
+table.type02 td {
+  width: 350px;
+  padding: 10px;
+  vertical-align: top;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
 </style>
 
-<script>
-     function submit() {
-            $.ajax({
-                type: 'POST',
-                url:
-                data: {},
-                success: function (response) {
-                    if (response[] == 'success') {
-
-                       
-                    }
-
-                }
-            })
-        }
-</script>
 
 <body>
 <div id="wrap">
@@ -69,18 +83,77 @@
         <h5 id="input-desc">문장을 입력해보세요(욕설 포함)</h5></br>
         <div class="input">
             <div class="text">
-                <input type="text" class="form-control" id="ingredient"></br><button type="button" class="btn btn-dark" onclick="submit()">submit</button>
+                <input type="text" class="form-control" id="bad_word"></br><button type="button" class="btn btn-dark" onclick="submit()">submit</button>
             </div>
 
         </div>
 
     </div>
 
+    <div>
+        <table class="type02" id="label_1" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <th scope="row">1단계</th>
+                <td>또라이</td>
+            </tr>
+            <tr>
+                <th scope="row">1단계</th>
+                <td>병신</td>
+            </tr>
+            <tr>
+                <th scope="row">1단계</th>
+                <td>빠큐</td>
+            </tr>
+            <tr>
+                <th scope="row">1단계</th>
+                <td>뻑유</td>
+            </tr>
+            <tr>
+                <th scope="row">1단계</th>
+                <td>뻑큐</td>
+            </tr>
+            <tr>
+                <th scope="row">1단계</th>
+                <td>뻨큐</td>
+            </tr>
+            <tr>
+                <th scope="row">1단계</th>
+                <td>썅</td>
+            </tr>
 
-    <div class="right">
+        </table>
+        <table class="type02" id="label_2" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <th scope="row">2단계</th>
+                <td>늬미</td>
+            </tr>
+            <tr>
+                <th scope="row">2단계</th>
+                <td>니년</td>
+            </tr>
+            <tr>
+                <th scope="row">2단계</th>
+                <td>니믜</td>
+            </tr>
+            <tr>
+                <th scope="row">2단계</th>
+                <td>니애미</td>
+            </tr>
+            <tr>
+                <th scope="row">2단계</th>
+                <td>니미럴</td>
+            </tr>
+            <tr>
+                <th scope="row">2단계</th>
+                <td>머갈</td>
+            </tr>
+            <tr>
+                <th scope="row">2단계</th>
+                <td>정명</td>
+            </tr>
 
+        </table>
     </div>
-
 </div>
 
 </body>
